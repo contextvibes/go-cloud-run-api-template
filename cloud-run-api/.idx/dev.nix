@@ -113,7 +113,7 @@
             echo "Target directory for contextvibes: $LOCAL_BIN_DIR"
 
             export GOBIN="$LOCAL_BIN_DIR"
-            echo "Running: GOBIN=$GOBIN go install github.com/contextvibes/cli/cmd/contextvibes@latest"
+            echo "Running: GOBIN=$GOBIN go install github.com/contextvibes/cli/cmd/contextvibes@v0.0.6"
 
             if go install github.com/contextvibes/cli/cmd/contextvibes@latest; then
               echo "Successfully installed contextvibes to $LOCAL_BIN_DIR/contextvibes"
