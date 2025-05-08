@@ -1,0 +1,61 @@
+# ~/.gitignore
+# Gitignore for Go application development.
+
+### Go ###
+# Compiled Go files and binaries
+*.a
+*.o
+*.so
+*.so.*
+*.dylib
+*.dll
+*.test # Binaries from 'go test -c'
+
+# Go build output directory and common binary names
+bin/
+app
+server
+
+# Go workspace checksum
+go.work.sum
+
+# CGO generated files
+h.c
+h.go
+_obj/
+_test/
+
+# Architecture specific files (less common now)
+# *.[568vq]
+
+# Profiling data
+*.prof
+
+# Dependency directory (uncomment if using vendor/)
+# vendor/
+
+### OS / System Files ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+### Configuration / Secrets ###
+# Environment variable files (DO NOT COMMIT SECRETS)
+.env
+
+
+
+# Sensitive JSON files (Add specific names if used, e.g., secrets.json)
+# *.secret.json
+
+### Logs ###
+*.log
+crash.*.log
+
+
+### Project Specific ###
+# Archived code directory
+contextvibes*

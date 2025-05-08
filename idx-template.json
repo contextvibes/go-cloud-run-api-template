@@ -1,0 +1,22 @@
+{
+  "name": "Go Starters",
+  "description": "Start a Go backend project, such as an API server.",
+  "categories": [
+    "Backend",
+    "API"
+  ],
+  "icon": "https://www.gstatic.com/monospace/231115/logo_go.svg",
+  "publisher": "Context Vibes",
+  "params": [
+    {
+      "id": "environment",
+      "name": "Project Type",
+      "type": "enum",
+      "default": "cloud-run-api",
+      "options": {
+        "cloud-run-api": "Cloud Run API Server (Hello World)"
+      },
+      "required": true
+    }
+  ]
+}
